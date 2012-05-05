@@ -69,7 +69,7 @@ if (is_soap_fault($result)) {
     '<div class="modal-footer">' .
     '<a href="https://twitter.com/share" target="_blank" class="twitter-share-button" data-url="' . $player_compartilhar . '" data-text="Veja esse vídeo que legal!" data-lang="pt">Tweetar</a>' .
     '<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>' .
-    '<a href="" class="btn close">Close</a>' .
+    '<a href="javascript:;" class="btn close">Close</a>' .
     '</div>' .
     '</div>';
 
